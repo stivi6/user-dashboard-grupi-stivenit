@@ -1,0 +1,79 @@
+============================================================
+DOKUMENTIMI I PROJEKTIT: USER DASHBOARD (GRUPI I STIVENIT)
+============================================================
+
+Lënda: Zhvillim Website & Cloud Computing
+Klasa: 11A
+Nxënësit: Stiven Arifaj (JS), Joni Memeti (CSS), Tomas Peci (HTML)
+
+------------------------------------------------------------
+1. STRUKTURA E PROJEKTIT (Pikët: 10/10)
+------------------------------------------------------------
+Skedarët në projekt:
+- index.html (Struktura)
+- style.css (Dizajni)
+- script.js (Logjika dhe Konflikti)
+- README.md (Përshkrimi i grupit)
+
+------------------------------------------------------------
+2. KOMANDAT GIT TË PËRDORURA (Pikët: 20/20)
+------------------------------------------------------------
+Këto janë komandat që ekzekutuam për të simuluar punën në grup:
+
+A. Inicializimi:
+   git init
+   git remote add origin https://github.com/stivi6/user-dashboard-grupi-stivenit.git
+
+B. Puna e Tomasit (HTML):
+   git checkout -b feature-html
+   git add index.html
+   git commit -m "Nxenesi 1 (Tomas) - Shton strukturen HTML"
+   git push origin feature-html
+
+C. Puna e Jonit (CSS):
+   git checkout -b feature-css
+   git add style.css
+   git commit -m "Nxenesi 2 (Joni) - Shton dizajnin CSS"
+   git push origin feature-css
+
+D. Puna e Stivenit (JS):
+   git checkout -b feature-js
+   git add script.js
+   git commit -m "Nxenesi 3 (Stiven) - Shton funksionalitetin JS"
+   git push origin feature-js
+
+E. Krijimi dhe Zgjidhja e Konfliktit:
+   git checkout main
+   git merge feature-html
+   git merge feature-css
+   # Këtu u bë ndryshimi manual për të simuluar konfliktin e parë
+   git merge feature-js 
+   # KONFLIKTI NDODHI KËTU (te script.js rreshti 1)
+   # Zgjidhja: U bashkuan listat: ["Ardit", "Elira", "Joni", "Tomas", "Jon", "Sara"]
+   git add script.js
+   git commit -m "Zgjidhja perfundimtare e Merge Conflict"
+   git push origin main
+
+------------------------------------------------------------
+3. SI TA DOREZONI PROJEKTIN (Udhëzime)
+------------------------------------------------------------
+Hapi 1: Dërgoji mësueses linkun e GitHub:
+https://github.com/stivi6/user-dashboard-grupi-stivenit
+
+Hapi 2: Tregoji mësueses "Graph-in" e punës.
+Hap terminalin në laptopin tënd dhe shkruaj:
+git log --oneline --graph --all
+
+Hapi 3: Tregoji rreshtat e konfliktit te script.js.
+Shpjegoji që: "Pasi Tomasi dhe Joni shtuan emrat e tyre, kur unë (Stiveni) bëra merge kodin tim të JavaScript, Git nuk dinte cilën listë të mbante, kështu që unë i bashkova të gjithë emrat manualisht për të zgjidhur konfliktin."
+
+Hapi 4: Tregoji README.md në GitHub ku janë emrat e grupit.
+
+------------------------------------------------------------
+VLERËSIMI I PRITUR: 100 PIKË (NOTA 10)
+------------------------------------------------------------
+- Struktura: OK
+- HTML/CSS/JS: OK (Dizajn modern + fshirje/shtim userash)
+- Branches: OK (feature-html, feature-css, feature-js)
+- Merge Conflict: OK (I krijuar dhe i zgjidhur saktë)
+============================================================
