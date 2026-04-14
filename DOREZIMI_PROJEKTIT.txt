@@ -54,26 +54,3 @@ E. Krijimi dhe Zgjidhja e Konfliktit:
    git commit -m "Zgjidhja perfundimtare e Merge Conflict"
    git push origin main
 
-------------------------------------------------------------
-3. SI TA DOREZONI PROJEKTIN (Udhëzime)
-------------------------------------------------------------
-Hapi 1: Dërgoji mësueses linkun e GitHub:
-https://github.com/stivi6/user-dashboard-grupi-stivenit
-
-Hapi 2: Tregoji mësueses "Graph-in" e punës.
-Hap terminalin në laptopin tënd dhe shkruaj:
-git log --oneline --graph --all
-
-Hapi 3: Tregoji rreshtat e konfliktit te script.js.
-Shpjegoji që: "Pasi Tomasi dhe Joni shtuan emrat e tyre, kur unë (Stiveni) bëra merge kodin tim të JavaScript, Git nuk dinte cilën listë të mbante, kështu që unë i bashkova të gjithë emrat manualisht për të zgjidhur konfliktin."
-
-Hapi 4: Tregoji README.md në GitHub ku janë emrat e grupit.
-
-------------------------------------------------------------
-VLERËSIMI I PRITUR: 100 PIKË (NOTA 10)
-------------------------------------------------------------
-- Struktura: OK
-- HTML/CSS/JS: OK (Dizajn modern + fshirje/shtim userash)
-- Branches: OK (feature-html, feature-css, feature-js)
-- Merge Conflict: OK (I krijuar dhe i zgjidhur saktë)
-============================================================
