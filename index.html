@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>User Dashboard</h1>
+    </header>
+
+    <main class="container">
+        <section class="add-user-card">
+            <h2>Shto Përdorues të Ri</h2>
+            <div class="input-group">
+                <input type="text" id="userName" placeholder="Shkruani emrin këtu...">
+                <button id="addUserBtn">Add User</button>
+            </div>
+        </section>
+
+        <section class="user-list-section">
+            <h2>Lista e Përdoruesve</h2>
+            <div id="userList" class="user-grid">
+                <!-- Userat do të shfaqen këtu dinamikisht nga JS -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
