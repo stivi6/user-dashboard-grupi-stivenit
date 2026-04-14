@@ -1,6 +1,6 @@
 // Funksionaliteti nga Stiven Arifaj
 
-let users = [" Ardit\, \Elira\, \Tomas\, \Stiven\]; // Ndryshimi nga Nxënësi 3 në feature-js
+let users = [" Ardit\, \Elira\, \MASTER-CONTENT\]; // Ndryshimi nga Nxënësi 3 në feature-js
 
 const userListElement = document.getElementById('userList');
 const addUserBtn = document.getElementById('addUserBtn');
