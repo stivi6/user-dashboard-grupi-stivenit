@@ -1,1 +1,2 @@
-// Stiven do të punojë këtu
+let users = ["Ardit", "Elira"];
+console.log("Users initialized:", users);
